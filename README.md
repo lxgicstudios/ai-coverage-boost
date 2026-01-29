@@ -1,5 +1,10 @@
 # ai-coverage-boost
 
+[![npm version](https://img.shields.io/npm/v/ai-coverage-boost.svg)](https://www.npmjs.com/package/ai-coverage-boost)
+[![npm downloads](https://img.shields.io/npm/dm/ai-coverage-boost.svg)](https://www.npmjs.com/package/ai-coverage-boost)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Find untested code paths and auto-generate tests. Point it at a file and get instant coverage improvements.
 
 ## Install
