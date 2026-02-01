@@ -8,8 +8,18 @@ exports.writeTestFile = writeTestFile;
 const openai_1 = __importDefault(require("openai"));
 const fs_1 = require("fs");
 const path_1 = require("path");
-const openai = new openai_1.default();
+function getOpenAI() {
+    const apiKey = process.env.OPENAI_API_KEY;
+    if (!apiKey) {
+        console.error("Missing OPENAI_API_KEY environment variable.\n" +
+            "Get one at https://platform.openai.com/api-keys then:\n" +
+            "  export OPENAI_API_KEY=sk-...");
+        process.exit(1);
+    }
+    return new openai_1.default({ apiKey });
+}
 async function analyzeAndGenerateTests(filePath) {
+    const openai = getOpenAI();
     const code = (0, fs_1.readFileSync)(filePath, "utf-8");
     const ext = filePath.endsWith(".ts") || filePath.endsWith(".tsx") ? "ts" : "js";
     const name = (0, path_1.basename)(filePath, `.${ext}`);
