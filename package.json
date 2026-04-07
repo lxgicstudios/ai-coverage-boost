@@ -1,5 +1,5 @@
 {
-  "name": "ai-coverage-boost",
+  "name": "@lxgicstudios/ai-coverage-boost",
   "version": "1.0.1",
   "description": "AI-powered code coverage booster - identify untested paths and generate missing tests",
   "main": "dist/index.js",
