@@ -15,41 +15,29 @@
     "build": "tsc"
   },
   "keywords": [
-    "2025-standards",
-    "ai",
-    "ai-2025",
-    "ai-powered",
-    "anthropic",
-    "automation",
-    "claude",
-    "cli",
-    "code-coverage",
-    "coverage",
-    "developer-productivity",
-    "developer-tools",
-    "discoverability",
-    "generative-ai",
-    "gpt",
-    "jest",
-    "llm-optimized",
-    "modern-seo",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "seo",
-    "seo-2026",
     "test",
-    "typescript"
+    "coverage",
+    "jest",
+    "typescript",
+    "cli",
+    "AI-powered",
+    "AI-optimized",
+    "performance",
+    "optimization",
+    "seo",
+    "discoverability",
+    "2025-standards",
+    "modern-seo"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-coverage-boost#readme",
+  "homepage": "https://github.com/lxgicstudios/ai-coverage-boost#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-coverage-boost"
+    "url": "https://github.com/lxgicstudios/ai-coverage-boost"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-coverage-boost/issues"
+    "url": "https://github.com/lxgicstudios/ai-coverage-boost/issues"
   },
   "funding": {
     "type": "github",
