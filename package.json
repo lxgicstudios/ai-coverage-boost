@@ -8,7 +8,7 @@
     "ai-coverage-boost": "dist/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/npm-tools/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-coverage-boost/issues"
   },
   "dependencies": {
     "commander": "^12.1.0",
@@ -32,7 +32,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-coverage-boost",
+  "homepage": "https://github.com/LXGIC-Studios/ai-coverage-boost",
   "keywords": [
     "test-coverage",
     "code-coverage",
@@ -40,7 +40,19 @@
     "istanbul",
     "vitest",
     "june-2026-core-update",
-    "technical-seo"
+    "technical-seo",
+    "ai",
+    "anthropic",
+    "automation",
+    "claude",
+    "cli",
+    "copilot",
+    "cursor",
+    "developer-tools",
+    "devtools",
+    "gpt",
+    "npx",
+    "openai"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -51,8 +63,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/npm-tools.git",
-    "directory": "ai-coverage-boost"
+    "url": "git+https://github.com/LXGIC-Studios/ai-coverage-boost.git"
   },
   "scripts": {
     "build": "tsc"
